@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: silver;
+}
+#main_product{
+    height: 800px;
+    background-color: white;
+    padding: 10px;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+#main_product img{
+    float: left;
+}
+#main_product table, td, th {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+#main_product table {
+    border-collapse: collapse;
+    width: 100%;
+}
+#quantity{
+    width: 3em;
+}
+
+.floating-box {  
+    background-color: white;
+    display: block;
+    float: left;
+    width: 144px;
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #009999;
+    text-align: center;    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+li form {  
+    padding: 14px 16px; 
+}
+#li_form{
+    float: right;
+}
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+header{
+    background-color: teal;
+    color: white;
+    font-size: medium;
+    text-align: center;
+    padding: 10px;
+}
+footer{
+    clear: left;
+    background-color: teal;
+    color: white;
+    font-size: medium;
+    text-align: center;
+    padding: 10px;
+}
+main{   
+    padding: 10px;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+.required{
+    color: red;
+}
+#checkout input{
+    width: 245px;
+    margin: .5em;
+    padding: .2em;
+}
+#checkout label{
+    float:left;
+    width: 9em;
+    text-align: right;
+}
+#checkout textarea{
+    width: 400px;
+}
